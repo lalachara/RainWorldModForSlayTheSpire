@@ -1,0 +1,80 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 199.74, "y": 62.96 },
+	{ "name": "bone2", "parent": "bone", "length": 79.46, "rotation": 175.7 },
+	{ "name": "bone3", "parent": "bone2", "length": 82.08, "rotation": 13.86, "x": 79.46 },
+	{ "name": "bone4", "parent": "bone3", "length": 99.28, "rotation": 165.02, "x": -79.25, "y": 16.8 },
+	{ "name": "bone5", "parent": "bone4", "length": 88.56, "rotation": -2.32, "x": 99.28 },
+	{ "name": "bone6", "parent": "bone5", "length": 250.88, "rotation": 0.33, "x": 88.56 },
+	{ "name": "bone7", "parent": "bone2", "length": 21.06, "rotation": 146.74, "x": 21.51, "y": 18.51 },
+	{ "name": "bone8", "parent": "bone7", "length": 20.04, "rotation": -84.34, "x": 21.06 },
+	{ "name": "bone9", "parent": "bone8", "length": 21.87, "rotation": -54.73, "x": 20.04 },
+	{ "name": "bone10", "parent": "bone2", "length": 33.06, "rotation": 57.99, "x": 48.91, "y": 22.18 },
+	{ "name": "bone11", "parent": "bone10", "length": 36.63, "rotation": -51.17, "x": 33.06 },
+	{ "name": "bone12", "parent": "bone3", "length": 56.06, "rotation": -4.63, "x": 26.69, "y": 32.31 },
+	{ "name": "bone13", "parent": "bone4", "length": 19.13, "rotation": -49.49, "x": 106.79, "y": -15.14 },
+	{ "name": "bone14", "parent": "bone13", "length": 19.37, "rotation": -93.49, "x": 19.13 },
+	{ "name": "bone15", "parent": "bone14", "length": 13.54, "rotation": -31.61, "x": 19.37 }
+],
+"slots": [
+	{ "name": "右后爪", "bone": "root", "attachment": "右后爪" },
+	{ "name": "右前爪", "bone": "root", "attachment": "右前爪" },
+	{ "name": "尾巴", "bone": "root", "attachment": "尾巴" },
+	{ "name": "后足", "bone": "root", "attachment": "后足" },
+	{ "name": "后身体", "bone": "root", "attachment": "后身体" },
+	{ "name": "前身体", "bone": "bone2", "attachment": "前身体" },
+	{ "name": "左后爪", "bone": "root", "attachment": "左后爪" },
+	{ "name": "左前爪", "bone": "root", "attachment": "左前爪" },
+	{ "name": "下颚", "bone": "bone12", "attachment": "下颚" },
+	{ "name": "上颚", "bone": "bone3", "attachment": "上颚" }
+],
+  "skins":{"default"
+: {
+			"左后爪": {
+				"左后爪": { "x": 180.89, "y": 41.85, "width": 41, "height": 30 }
+			},
+			"右后爪": {
+				"右后爪": { "x": 140.39, "y": 24.35, "width": 50, "height": 31 }
+			},
+			"上颚": {
+				"上颚": { "x": 44.1, "y": 2.29, "rotation": 170.44, "width": 132, "height": 81 }
+			},
+			"前身体": {
+				"前身体": { "x": 8.28, "y": -18.82, "rotation": -175.7, "width": 207, "height": 127 }
+			},
+			"后身体": {
+				"后身体": { "x": 331.39, "y": 65.35, "width": 210, "height": 111 }
+			},
+			"左前爪": {
+				"左前爪": { "x": 174.39, "y": 29.35, "width": 58, "height": 43 }
+			},
+			"后足": {
+				"后足": { "x": 299.39, "y": 21.85, "width": 54, "height": 28 }
+			},
+			"下颚": {
+				"下颚": { "x": 39.36, "y": -5.11, "rotation": 175.07, "width": 83, "height": 27 }
+			},
+			"右前爪": {
+				"右前爪": { "x": 105.89, "y": 17.35, "width": 65, "height": 19 }
+			},
+			"尾巴": {
+				"尾巴": { "x": 519.89, "y": 32.35, "width": 291, "height": 63 }
+			}
+		}
+	}
+,
+"animations": {
+	"animation": {
+		"bones": {
+			"bone3": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -40.01 },
+					{ "time": 0.6667 ,"angle": 0}
+				]
+			}
+		}
+	}
+}
+}

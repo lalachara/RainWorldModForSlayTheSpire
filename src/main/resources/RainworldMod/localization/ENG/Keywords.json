@@ -1,0 +1,118 @@
+[
+  {
+    "NAMES": ["spear"],
+    "DESCRIPTION": "Cards using spears"
+  },
+  {
+    "NAMES": ["trauma"],
+    "DESCRIPTION": "Take damage equal to stacks when attacking. Reduce 1 stack at end of turn if no attack was made."
+  },
+  {
+    "NAMES": ["fullness"],
+    "DESCRIPTION": "Gain 1 when executing non-minion enemies (extra 1 per 30 max HP of target). #yAll max HP gains become fullness gains. "
+  },
+  {
+    "NAMES": ["karma"],
+    "DESCRIPTION": "When HP reaches 0, if karma ≠1, revive with full HP and reduce karma by 1."
+  },
+  {
+    "NAMES": ["forced_hibernation"],
+    "DESCRIPTION": "This hibernation costs no fullness and grants no karma. After trigger, next hibernation in combat requires 10 fullness and cannot be forced."
+  },
+  {
+    "NAMES": ["nimble"],
+    "DESCRIPTION": "Every 10 stacks: gain 1 buffer and 1 dexterity."
+  },
+  {
+    "NAMES": ["scavengers_treasure"],
+    "DESCRIPTION": "Scavenger's treasures."
+  },
+  {
+    "NAMES": ["hunt_mark"],
+    "DESCRIPTION": "Gain 1 fullness when be damaged by Slug Cat."
+  },
+  {
+    "NAMES": ["exhaustion"],
+    "DESCRIPTION": "Draw 1 less card per turn, gain 1 less energy."
+  },
+  {
+    "NAMES": ["karmic_burden"],
+    "DESCRIPTION": "Gain 1 extra energy per turn. Cannot gain karma. Cannot be removed."
+  },
+  {
+    "NAMES": ["causality"],
+    "DESCRIPTION": "Your karma decreases by 1 per turn. Cannot be removed."
+  },
+  {
+    "NAMES": ["lurking"],
+    "DESCRIPTION": "Gain equal stacks of #yintangible , reduce cost of powers/skills by 1. Next attack deals double damage, then end lurking and lose equal intangible."
+  },
+  {
+    "NAMES": ["preparation"],
+    "DESCRIPTION": "Next turn put a blue fruit in hand."
+  },
+  {
+    "NAMES": ["prep_counter"],
+    "DESCRIPTION": "Next turn draw extra counter cards, gain 3x counter block. Playing cards increases counter."
+  },
+  {
+    "NAMES": ["iteration"],
+    "DESCRIPTION": "When playing next card, if identical card in hand/draw pile, exhaust it and automatically play all identical cards."
+  },
+  {
+    "NAMES": ["karma_lock"],
+    "DESCRIPTION": "Next revival won't reduce karma (even at karma 0)."
+  },
+  {
+    "NAMES": ["stone_toss"],
+    "DESCRIPTION": "Next spear card played costs 0."
+  },
+  {
+    "NAMES": ["unique"],
+    "DESCRIPTION": "Only one copy takes effect even if multiple in deck."
+  },
+  {
+    "NAMES": ["aid"],
+    "DESCRIPTION": "Vulture's Aid: NL Gain flight. NL Lizard's Aid: NL Destroy block, deal damage. NL Scavenger's Aid: NL Gain gold."
+  },
+  {
+    "NAMES": ["unused_card"],
+    "DESCRIPTION": "After gaining this, when playing a card not recorded before (upgraded/unupgraded share name), record it and gain #yfullness ."
+  },
+  {
+    "NAMES": ["corruption_value"],
+    "DESCRIPTION": "Playing a #ycorrupted card grants #ycorruption_value . When #ycorruption_value reaches #b5 , enter #yRottification state."
+  },
+  {
+    "NAMES": ["corrupt"],
+    "DESCRIPTION": "When played, gain 1 stack of #ycorruption_value . (Only effective for Rain World Hunter)."
+  },
+  {
+    "NAMES": ["rottification"],
+    "DESCRIPTION": " When #ycorruption_value reaches #b5 , enter #yRottification state. For each #ycorrupted card in the exhausted pile, gain #b1 stack of #ycorruption_power . Cannot revive via #ykarma while in #yRottification state."
+  },
+  {
+    "NAMES": ["return_to_hand"],
+    "DESCRIPTION": "Return this card from the discard pile to your hand (only effective for non-exhausted attack/skill cards)."
+  },
+  {
+    "NAMES": ["different_state"],
+    "DESCRIPTION": "If this card is #ycorrupted , select un-#ycorrupted cards; otherwise, select all #ycorrupted cards."
+  },
+  {
+    "NAMES": ["immunity_factor"],
+    "DESCRIPTION": "Cannot be #ycorrupted . Gain [E] when drawn; if in #yRottification state, #rlose [E] instead."
+  },
+  {
+    "NAMES": ["corruption_strength"],
+    "DESCRIPTION": "While in #yRottification state, increase damage dealt by attacks. #rlose all corruption_strength when exiting #yRottification state."
+  },
+  {
+    "NAMES": ["devour"],
+    "DESCRIPTION": "Enemies with HP lower than the number of devour stacks die instantly. Enemies with devour gain 1 stack of #yentanglement each turn. (Clear all devour stacks of enemies when exiting #yRottification state.)"
+  },
+  {
+    "NAMES": ["karma_retribution"],
+    "DESCRIPTION": "Effect triggered when karma decreases during combat."
+  }
+]

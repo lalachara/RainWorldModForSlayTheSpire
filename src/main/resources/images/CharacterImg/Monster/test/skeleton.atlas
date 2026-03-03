@@ -1,0 +1,76 @@
+
+skeleton.png
+size: 196,506
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+上颚
+  rotate: false
+  xy: 2, 2
+  size: 132, 81
+  orig: 132, 81
+  offset: 0, 0
+  index: -1
+下颚
+  rotate: true
+  xy: 136, 9
+  size: 83, 27
+  orig: 83, 27
+  offset: 0, 0
+  index: -1
+前身体
+  rotate: true
+  xy: 2, 297
+  size: 207, 127
+  orig: 207, 127
+  offset: 0, 0
+  index: -1
+右前爪
+  rotate: true
+  xy: 175, 146
+  size: 65, 19
+  orig: 65, 19
+  offset: 0, 0
+  index: -1
+右后爪
+  rotate: true
+  xy: 115, 94
+  size: 50, 31
+  orig: 50, 31
+  offset: 0, 0
+  index: -1
+后足
+  rotate: true
+  xy: 165, 58
+  size: 54, 28
+  orig: 54, 28
+  offset: 0, 0
+  index: -1
+后身体
+  rotate: true
+  xy: 2, 85
+  size: 210, 111
+  orig: 210, 111
+  offset: 0, 0
+  index: -1
+尾巴
+  rotate: true
+  xy: 131, 213
+  size: 291, 63
+  orig: 291, 63
+  offset: 0, 0
+  index: -1
+左前爪
+  rotate: false
+  xy: 115, 168
+  size: 58, 43
+  orig: 58, 43
+  offset: 0, 0
+  index: -1
+左后爪
+  rotate: false
+  xy: 148, 114
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1

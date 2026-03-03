@@ -1,0 +1,125 @@
+
+skeleton.png
+size: 562,1036
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 59, 72
+  size: 124, 86
+  orig: 124, 86
+  offset: 0, 0
+  index: -1
+bozi
+  rotate: true
+  xy: 370, 9
+  size: 65, 82
+  orig: 65, 82
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 514, 358
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 514, 330
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+l-Swings
+  rotate: false
+  xy: 247, 433
+  size: 312, 327
+  orig: 312, 327
+  offset: 0, 0
+  index: -1
+l-bigwings
+  rotate: true
+  xy: 2, 198
+  size: 562, 243
+  orig: 562, 243
+  offset: 0, 0
+  index: -1
+l-jianjiagu
+  rotate: true
+  xy: 119, 2
+  size: 68, 76
+  orig: 68, 76
+  offset: 0, 0
+  index: -1
+r-Swings
+  rotate: false
+  xy: 247, 76
+  size: 265, 355
+  orig: 265, 355
+  offset: 0, 0
+  index: -1
+r-bigwings
+  rotate: false
+  xy: 2, 762
+  size: 533, 272
+  orig: 533, 272
+  offset: 0, 0
+  index: -1
+r-jianjiagu
+  rotate: true
+  xy: 197, 6
+  size: 68, 76
+  orig: 68, 76
+  offset: 0, 0
+  index: -1
+shange
+  rotate: true
+  xy: 147, 93
+  size: 103, 48
+  orig: 103, 48
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 514, 386
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+xiae
+  rotate: true
+  xy: 275, 7
+  size: 67, 93
+  orig: 67, 93
+  offset: 0, 0
+  index: -1
+youtui1
+  rotate: true
+  xy: 2, 4
+  size: 29, 36
+  orig: 29, 36
+  offset: 0, 0
+  index: -1
+youtui2
+  rotate: true
+  xy: 40, 6
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+zuotui2
+  rotate: false
+  xy: 2, 35
+  size: 55, 161
+  orig: 55, 161
+  offset: 0, 0
+  index: -1
+zuoyui1
+  rotate: true
+  xy: 59, 35
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1

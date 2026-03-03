@@ -1,0 +1,24 @@
+{
+  "Liver:Cabrite": {
+    "NAME": "蜥蜴"
+  },
+  "Liver:RedCabrite": {
+    "NAME": "烈焰蜥蜴"
+  },
+  "Liver:GreenCabrite": {
+    "NAME": "绿蜥蜴"
+  },
+  "Liver:IronBird": {
+    "NAME": "钢秃鹫"
+  },
+  "Liver:MushRoom": {
+    "NAME": "变异长腿菌"
+  },
+  "Rainworld:ThreeChicken": {
+    "NAME": "监察者",
+    "DIALOG":["~猫……摸摸……~","@继续……巡查危险……@","排除威胁..."]
+  },
+  "Rainworld:FireCent": {
+    "NAME": "烈焰蜈蚣"
+  }
+}

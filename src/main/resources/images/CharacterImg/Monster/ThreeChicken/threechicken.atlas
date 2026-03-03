@@ -1,0 +1,195 @@
+
+threechicken.png
+size: 1975,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 327, 313
+  size: 685, 236
+  orig: 685, 236
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 1590, 624
+  size: 374, 383
+  orig: 374, 383
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 1549, 42
+  size: 410, 363
+  orig: 410, 363
+  offset: 0, 0
+  index: -1
+04
+  rotate: true
+  xy: 1590, 407
+  size: 215, 379
+  orig: 215, 379
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 1205, 563
+  size: 383, 435
+  orig: 383, 435
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 1205, 341
+  size: 342, 220
+  orig: 342, 220
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 711, 39
+  size: 430, 294
+  orig: 430, 294
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 1143, 47
+  size: 94, 286
+  orig: 94, 286
+  offset: 0, 0
+  index: -1
+1da1
+  rotate: true
+  xy: 295, 263
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+1da2
+  rotate: true
+  xy: 314, 263
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+1xiao1
+  rotate: true
+  xy: 283, 260
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+1xiao2
+  rotate: true
+  xy: 182, 259
+  size: 27, 10
+  orig: 27, 10
+  offset: 0, 0
+  index: -1
+2da1
+  rotate: true
+  xy: 194, 260
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+2da2
+  rotate: false
+  xy: 333, 265
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+2xiao1
+  rotate: true
+  xy: 232, 260
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+2xiao2
+  rotate: true
+  xy: 249, 260
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+3da1
+  rotate: false
+  xy: 327, 289
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+3da2
+  rotate: true
+  xy: 213, 260
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+3xiao1
+  rotate: true
+  xy: 164, 259
+  size: 27, 16
+  orig: 27, 16
+  offset: 0, 0
+  index: -1
+3xiao2
+  rotate: true
+  xy: 266, 260
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+body1
+  rotate: true
+  xy: 2, 259
+  size: 739, 74
+  orig: 739, 74
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 78, 288
+  size: 710, 247
+  orig: 710, 247
+  offset: 0, 0
+  index: -1
+body3
+  rotate: false
+  xy: 2, 2
+  size: 707, 255
+  orig: 707, 255
+  offset: 0, 0
+  index: -1
+dachuxu
+  rotate: true
+  xy: 565, 335
+  size: 663, 638
+  orig: 663, 638
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 78, 259
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 107, 259
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: true
+  xy: 136, 259
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1

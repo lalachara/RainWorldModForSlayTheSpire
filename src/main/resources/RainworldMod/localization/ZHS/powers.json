@@ -1,0 +1,373 @@
+{
+  "Liver:Inherent": {
+    "NAME": "Push_To_Meow",
+    "DESCRIPTIONS": [
+      "Meow~meow~"
+    ]
+  },
+  "Liver:SleepBuff": {
+    "NAME": "休眠中",
+    "DESCRIPTIONS": [
+      "下回合增加1 #y业力 。受到伤害会中止休眠。"
+    ]
+  },
+  "Liver:OverSleepBuff": {
+    "NAME": "强制休眠中",
+    "DESCRIPTIONS": [
+      "受到伤害会中止休眠。"
+    ]
+  },
+  "Liver:OverSleepDeBuff": {
+    "NAME": "困困",
+    "DESCRIPTIONS": [
+      "无法强制休眠，下次休眠消耗的 #y饱食度 变为7。"
+    ]
+  },
+  "Liver:ChuangBuff": {
+    "NAME": "创伤",
+    "DESCRIPTIONS": [
+      "攻击时受到层数点伤害。回合结束时如果没有进行攻击则减少1层。"
+    ]
+  },
+  "Liver:FreeSpearBuff": {
+    "NAME": "投石",
+    "DESCRIPTIONS": [
+      "本回合使用的下张牌如果是矛，消耗为0。"
+    ]
+  },
+  "Liver:ReLive": {
+    "NAME": "重生",
+    "DESCRIPTIONS": [
+      "免疫任何伤害直至下回合开始。"
+    ]
+  },
+  "Liver:Nimble": {
+    "NAME": "灵巧",
+    "DESCRIPTIONS": [
+      "每积累10层灵巧，获得1层缓冲和1敏捷。"
+    ]
+  },
+  "Liver:HuntSignBuff": {
+    "NAME": "猎物标记",
+    "DESCRIPTIONS": [
+      "受到蛞蝓猫造成的伤害时，提供1饱食度。"
+    ]
+  },
+  "Liver:Tired": {
+    "NAME": "力竭",
+    "DESCRIPTIONS": [
+      "回合结束后业力-1。"
+    ]
+  },
+  "Liver:AcmeDefendBuff": {
+    "NAME": "极致的防御",
+    "DESCRIPTIONS": [
+      "每当你消耗牌时，提供1灵巧和2格挡。"
+    ]
+  },
+  "Liver:SpearMasterNoteBuff": {
+    "NAME": "矛大师的笔记",
+    "DESCRIPTIONS": [
+      "矛类卡牌伤害加"
+    ]
+  },
+  "Liver:KittyBuff": {
+    "NAME": "战神猫仔",
+    "DESCRIPTIONS": [
+      "抽牌数+1，每回合第一张使用的攻击牌会被额外打出1次。"
+    ]
+  },
+  "Liver:WorkErrorBuff": {
+    "NAME": "业障",
+    "DESCRIPTIONS": [
+      "你的业力锁定为1。每回合额外获得1能量。"
+    ]
+  },
+  "Liver:ChiefBuff": {
+    "NAME": "酋长",
+    "DESCRIPTIONS": [
+      "拾荒者的宝物牌不耗能，每回合开始时将随机1张拾荒者的宝物牌放入你的手牌中。"
+    ]
+  },
+  "Liver:TogetherBuff": {
+    "NAME": "连携",
+    "DESCRIPTIONS": [
+      "在同一回合中，每打出一张攻击牌和技能牌，获得1力量与1敏捷。"
+    ]
+  },
+  "Liver:StatusCardBuff": {
+    "NAME": "片叶不沾",
+    "DESCRIPTIONS": [
+      "抽到状态牌时将其消耗，并摸一张牌。"
+    ]
+  },
+  "Liver:TwoHandsBuff": {
+    "NAME": "两手准备",
+    "DESCRIPTIONS": [
+      "给与 #y创伤 时，额外给与1层。 NL 获得 #y灵巧 时，额外获得1层。"
+    ]
+  },
+  "Liver:Because": {
+    "NAME": "因果",
+    "DESCRIPTIONS": [
+      "每回合业力等级-1。","每回合业力等级+1。"
+    ]
+  },
+  "Liver:OldSixBuff": {
+    "NAME": "潜伏",
+    "DESCRIPTIONS": [
+      "获得等量层数无实体，能力和技能牌耗能-1。下一次打出的攻击牌伤害翻倍，但会结束潜伏并失去等量无实体。"
+    ]
+  },
+  "Liver:AllSpearFreeBuff": {
+    "NAME": "免费的矛们",
+    "DESCRIPTIONS": [
+      "使用矛类卡牌耗能为0。"
+    ]
+  },
+  "Liver:ReadyBuff": {
+    "NAME": "大跳",
+    "DESCRIPTIONS": [
+      "下回合将","放入手中。"
+    ]
+  },
+  "Liver:Prepare": {
+    "NAME": "筹备",
+    "DESCRIPTIONS": [
+      "下回合开始时多摸计数张牌，获得3倍计数点格挡。 NL 每次打出牌会令计数+1。当前计数："
+    ]
+  },
+  "Liver:AcidSlimeBuff": {
+    "NAME": "酸性粘液",
+    "DESCRIPTIONS": [
+      "受到伤害时，对伤害来源造成相当于自身格挡一半的伤害，并将一张粘液放入弃牌堆。"
+    ]
+  },
+  "Liver:WorkLevelLockBuff": {
+    "NAME": "业力锁",
+    "DESCRIPTIONS": [
+      "下次濒死重生不会降低业力（即便你的业力为1）。"
+    ]
+  },
+  "Liver:StrongerCatBuff": {
+    "NAME": "Stronger♂Cat",
+    "DESCRIPTIONS": [
+      "你的猫猫拳伤害增加层数倍。打出猫猫拳时获得1力量。"
+    ]
+  },
+  "Liver:CatComingBuff": {
+    "NAME": "猛猫下山",
+    "DESCRIPTIONS": [
+      "当你打出 rainworld:矛 时，抽1张牌 "
+    ]
+  },
+  "Liver:IterationBuff": {
+    "NAME": "迭代",
+    "DESCRIPTIONS": [
+      "下次打出牌时，如果手牌或抽牌堆中有同名牌，消耗这张牌，然后自动打出手牌和抽牌堆中的所有同名牌。"
+    ]
+  },
+   "Liver:SlimeBlockBuff": {
+  "NAME": "粘液装甲",
+  "DESCRIPTIONS": [
+    "每消耗一张粘液，获得1层多层护甲。"
+  ]
+   },
+     "Liver:WorkCatBuff": {
+       "NAME": "社畜",
+       "DESCRIPTIONS": [
+         "打出或消耗拾荒者的宝物时，获得金币。"
+       ]
+  },
+  "Liver:SlimeGrowBuff": {
+    "NAME": "再生粘液",
+    "DESCRIPTIONS": [
+      "每回合获得灵巧，并将1张粘液放入弃牌堆。"
+    ]
+  },
+  "Liver:TubeRunBuff": {
+    "NAME": "管人痴",
+    "DESCRIPTIONS": [
+      "如果未受到伤害，下回合获得格挡。"
+    ]
+  },
+  "Liver:WorkBlockBuff": {
+    "NAME": "业力屏障",
+    "DESCRIPTIONS": [
+      "格挡被突破时，对全体敌方造成伤害。"
+    ]
+  },
+  "Liver:FinishWorkBuff": {
+    "NAME": "完业",
+    "DESCRIPTIONS": [
+      "休眠未被打断时，获得2力量、2敏捷。"
+    ]
+  },
+  "Liver:FatWorldBuff": {
+    "NAME": "胖世界",
+    "DESCRIPTIONS": [
+      "打出本场战斗未打出过的牌时获得1 #y饱食度 。溢出的 #y饱食度 转化为力量。"
+    ]
+  },
+  "RedCat:UnbalanceBuff": {
+    "NAME": "失衡",
+    "DESCRIPTIONS": [
+      "本回合下次受到的伤害翻倍。"
+    ]
+  },
+  "RedCat:BorrowLifeBuff": {
+    "NAME": "借命",
+    "DESCRIPTIONS": [
+      "业力变为0时不会立即死亡"
+    ]
+  },
+  "RedCat:LifeCatalyst": {
+    "NAME": "生命催化剂",
+    "DESCRIPTIONS": [
+      "每回合额外抽3张牌，将一张腐化物放入手牌中并提升3腐化值。"
+    ]
+  },
+  "RedCat:CantControl": {
+    "NAME": "失控",
+    "DESCRIPTIONS": [
+      "打出牌时，抽 #b"," 张牌并受到 #r"," 点伤害。无法退出 #y菌化 状态。"
+    ]
+  },
+  "RedCat:HunterInstinct": {
+    "NAME": "猎手本能",
+    "DESCRIPTIONS": [
+      "回合开始时对随机目标施加 #y猎物标记 ，攻击带有 #y猎物标记 的敌人获得 #y活力 。"
+    ]
+  },
+  "RedCat:Metabolize": {
+    "NAME": "强效代谢",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得活力 "
+    ]
+  },
+  "Liver:Tooth": {
+  "NAME": "钢牙利齿",
+  "DESCRIPTIONS": [
+    "格挡在面对这个单位的攻击时效能减半。"
+  ]
+},
+  "Liver:LoveBlood": {
+    "NAME": "烈焰",
+    "DESCRIPTIONS": [
+      "受到负面状态时，获得2力量。"
+    ]
+  },
+  "Liver:IronFly": {
+    "NAME": "钢化飞行",
+    "DESCRIPTIONS": [
+      "意图不为攻击时免疫所有受到的伤害，受到攻击会变更一次意图。受到伤害时获得2力量，直至被击落。 NL "
+    ]
+  },
+  "Liver:Proliferation": {
+    "NAME": "增殖",
+    "DESCRIPTIONS": [
+      "当有牌被消耗时增加最大生命值并提升1力量。每回合开始时回复一定生命值。溢出的生命回复转化为最大生命值。"
+    ]
+  },
+  "RedCat:Inveteracy": {
+    "NAME": "根深蒂固",
+    "DESCRIPTIONS": [
+      " 退出 #y菌化 时，不再失去 #y腐化力量 。"
+    ]
+  },
+  "RedCat:MisfortunePower": {
+    "NAME": "不幸的发展",
+    "DESCRIPTIONS": [
+      "使用 腐化 的牌时，获取的格挡和造成的伤害翻倍。 "
+    ]
+  },
+  "RedCat:AcmeAttackBuff": {
+    "NAME": "不要摸我！",
+    "DESCRIPTIONS": [
+      " #y菌化 状态下，攻击或被击会给予对方 #b"," 层 #y缠绕 。"
+    ]
+  },
+  "RedCat:RestrainPower": {
+    "NAME": "抑制",
+    "DESCRIPTIONS": [
+      " #y腐化值 无法增加。"
+    ]
+  },
+  "RedCat:SpreadBuff": {
+    "NAME": "蔓延",
+    "DESCRIPTIONS": [
+      "打出 #y腐化 的牌时，将手牌中最左侧未被腐化的牌 #y腐化 。"
+    ]
+  },
+  "RedCat:BloodyBuff": {
+    "NAME": "浴血",
+    "DESCRIPTIONS": [
+      "下 #b"," 次受到的伤害减少 #b6 ，并将1张 #r伤口 放入抽牌堆。"
+    ]
+  },
+  "RedCat:FreeVigorPower": {
+    "NAME": "高速移动",
+    "DESCRIPTIONS": [
+      "下次攻击时不会消耗 #y活力 。"
+    ]
+  },
+  "RedCat:CorruptStrengthPower": {
+    "NAME": "腐化力量",
+    "DESCRIPTIONS": [
+      " #y菌化 时造成的伤害增加 #b"," 。退出菌化状态时失去所有 #y腐化力量 。"
+    ]
+  },
+  "RedCat:Mix":{
+    "NAME": "交融",
+    "DESCRIPTIONS": ["获得 #y腐化值 时，获得 #b","倍 #y临时生命 ;失去 #y腐化值 时，获得 #b","倍 #y活力 。"]
+  },
+  "RedCat:RedMushroomBuff":{
+    "NAME": "菌化",
+    "DESCRIPTIONS": ["打出牌时减少 #b1 #y腐化值 ， #y腐化值 为0时退出 #y菌化 。 #y消耗 牌时，获得 #b2 #y临时生命 。 NL #r受到致命伤害时不触发 #y业力 #r重生。退出 #y菌化 时，将所有临时生命转为 #y格挡 。"]
+  },
+  "RedCat:ExcitePower":{
+    "NAME": "神经刺激",
+    "DESCRIPTIONS": ["触发 #y业报 时，重置 #y休眠 的冷却时间，并对所有敌人造成 #b"," 点伤害。"]
+  },
+  "RedCat:TwistPower":{
+    "NAME": "殉道",
+    "DESCRIPTIONS": ["回合开始时，如果 #y业力 为 #b1 ,触发 #b1 次 #y业报 ;触发 #y业报 时，抽 #b"," 张牌。 "]
+  },
+  "RedCat:EvolutionBuff":{
+    "NAME": "自适应进化",
+    "DESCRIPTIONS": ["受到来自怪物的伤害后，使同种怪物对自身的伤害减 #b1 。","已记录:"," NL 受到来自 #y"," 的伤害减少 #b"]
+  },
+  "RedCat:StudySpear":{
+    "NAME": "熟能生巧",
+    "DESCRIPTIONS": ["当攻击牌 #y回手 时，令其基础攻击增加 #b"]
+  },
+  "RedCat:BackToHandPower":{
+    "NAME": "回手",
+    "DESCRIPTIONS": ["下 #b"," 张打出的 #y攻击牌 或 #y技能牌 进入弃牌堆后将其重新放入手牌。 "]
+  },
+  "RedCat:ByPassPower":{
+    "NAME": "借过",
+    "DESCRIPTIONS": ["胜利时额外获得 #b1 个 #y遗物 和 #b1 #y业力 。"]
+  },
+  "RedCat:CreateSong":{
+    "NAME": "创造者之歌",
+    "DESCRIPTIONS": ["每回合额外获得 [E] ，但增长腐化值时失去生命。"]
+  },
+  "RedCat:ManiaPower":{
+    "NAME": "狂躁症",
+    "DESCRIPTIONS": ["无法打出 #y技能牌 ，但打出 #y攻击牌 时获得 #y活力 。"]
+  },
+  "RedCat:Substrate":{
+    "NAME": "培养基",
+    "DESCRIPTIONS": ["每回合将 #b"," 张 #y腐化物 放入手牌 。"]
+  },
+  "Rainworld:FireCentBuff":{
+    "NAME": "烈焰装甲",
+    "DESCRIPTIONS": ["每回合将格挡补充至 #b"," 。被突破 #b"," 次格挡后失效。"]
+  },
+  "Rainworld:CatchBuff":{
+    "NAME": "有机体解离",
+    "DESCRIPTIONS": ["每次受到攻击时，获得 #b1 #y力量 ，每回合至多获得 #b"," 次;受到这个单位造成的伤害时，减少 #r1 最大生命值 。"]
+  }
+
+}

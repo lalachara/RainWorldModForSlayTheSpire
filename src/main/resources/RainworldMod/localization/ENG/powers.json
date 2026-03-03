@@ -1,0 +1,372 @@
+{
+  "Liver:Inherent": {
+    "NAME": "Push_To_Meow",
+    "DESCRIPTIONS": [
+      "Meow~meow~"
+    ]
+  },
+  "Liver:SleepBuff": {
+    "NAME": "Hibernating",
+    "DESCRIPTIONS": [
+      "Next turn increase 1 #ykarma . Taking damage interrupts hibernation."
+    ]
+  },
+  "Liver:OverSleepBuff": {
+    "NAME": "Forced Hibernation",
+    "DESCRIPTIONS": [
+      "Taking damage interrupts hibernation."
+    ]
+  },
+  "Liver:OverSleepDeBuff": {
+    "NAME": "Sleepy",
+    "DESCRIPTIONS": [
+      "Cannot force hibernate, next hibernation costs 7 #yfullness ."
+    ]
+  },
+  "Liver:ChuangBuff": {
+    "NAME": "Trauma",
+    "DESCRIPTIONS": [
+      "Take damage equal to stacks when attacking. Reduce 1 stack at end of turn if no attack was made."
+    ]
+  },
+  "Liver:FreeSpearBuff": {
+    "NAME": "Stone Toss",
+    "DESCRIPTIONS": [
+      "Next spear card played costs 0."
+    ]
+  },
+  "Liver:ReLive": {
+    "NAME": "Revive",
+    "DESCRIPTIONS": [
+      "Immune to all damage until next turn starts."
+    ]
+  },
+  "Liver:Nimble": {
+    "NAME": "Nimble",
+    "DESCRIPTIONS": [
+      "Every 10 stacks: gain 1 buffer and 1 dexterity."
+    ]
+  },
+  "Liver:HuntSignBuff": {
+    "NAME": "Hunt Mark",
+    "DESCRIPTIONS": [
+      "Gain 1 fullness when be damaged by Slug Cat."
+    ]
+  },
+  "Liver:Tired": {
+    "NAME": "Exhaustion",
+    "DESCRIPTIONS": [
+      "After turn ends, karma -1."
+    ]
+  },
+  "Liver:AcmeDefendBuff": {
+    "NAME": "Ultimate Defense",
+    "DESCRIPTIONS": [
+      "Whenever you exhaust 1 card, gain 1 dexterity, gain 2 block."
+    ]
+  },
+  "Liver:SpearMasterNoteBuff": {
+    "NAME": "Spear Master's Notes",
+    "DESCRIPTIONS": [
+      "Spear cards deal +"
+    ]
+  },
+  "Liver:KittyBuff": {
+    "NAME": "Warrior Kitten",
+    "DESCRIPTIONS": [
+      "Draw +1 card, first attack played each turn is repeated."
+    ]
+  },
+  "Liver:WorkErrorBuff": {
+    "NAME": "Karmic Burden",
+    "DESCRIPTIONS": [
+      "Your karma locked at 1. Gain 1 extra energy per turn."
+    ]
+  },
+  "Liver:ChiefBuff": {
+    "NAME": "Chieftain",
+    "DESCRIPTIONS": [
+      "Scavenger's Treasure cards cost 0. Start of turn: add random Scavenger's Treasure to hand."
+    ]
+  },
+  "Liver:TogetherBuff": {
+    "NAME": "Combo",
+    "DESCRIPTIONS": [
+      "Each time an attack and skill played in same turn, gain 1 strength and 1 dexterity."
+    ]
+  },
+  "Liver:StatusCardBuff": {
+    "NAME": "Untouched",
+    "DESCRIPTIONS": [
+      "When drawing status card, exhaust it and draw 1 card."
+    ]
+  },
+  "Liver:TwoHandsBuff": {
+    "NAME": "Two-Handed Prep",
+    "DESCRIPTIONS": [
+      "When applying #ytrauma , apply +1. NL When gaining #ydexterity , gain +1."
+    ]
+  },
+  "Liver:Because": {
+    "NAME": "Causality",
+    "DESCRIPTIONS": [
+      "Karma level -1 per turn.","Karma level +1 per turn."
+    ]
+  },
+  "Liver:OldSixBuff": {
+    "NAME": "Lurking",
+    "DESCRIPTIONS": [
+      "Gain equal stacks intangible. Powers/skills cost -1. Next attack deals double damage but ends lurking."
+    ]
+  },
+  "Liver:AllSpearFreeBuff": {
+    "NAME": "Free Spears",
+    "DESCRIPTIONS": [
+      "Spear cards cost 0."
+    ]
+  },
+  "Liver:ReadyBuff": {
+    "NAME": "Big Jump",
+    "DESCRIPTIONS": [
+      "Next turn put "," in hand."
+    ]
+  },
+  "Liver:Prepare": {
+    "NAME": "Preparation",
+    "DESCRIPTIONS": [
+      "Next turn start: draw counter cards, gain 3x counter block. NL Playing cards increases counter. Current counter: "
+    ]
+  },
+  "Liver:AcidSlimeBuff": {
+    "NAME": "Acidic Slime",
+    "DESCRIPTIONS": [
+      "When damaged, deal damage equal to half your block to source, put a slime in discard pile."
+    ]
+  },
+  "Liver:WorkLevelLockBuff": {
+    "NAME": "Karma Lock",
+    "DESCRIPTIONS": [
+      "Next revival won't reduce karma (even at karma 1)."
+    ]
+  },
+  "Liver:StrongerCatBuff": {
+    "NAME": "Stronger♂Cat",
+    "DESCRIPTIONS": [
+      "Cat punch deals stacks times more damage. Playing cat punch gives 1 strength."
+    ]
+  },
+  "Liver:CatComingBuff": {
+    "NAME": "Fierce Cat Charge",
+    "DESCRIPTIONS": [
+      "When playing rainworld:spear , draw 1 card "
+    ]
+  },
+  "Liver:IterationBuff": {
+    "NAME": "Iteration",
+    "DESCRIPTIONS": [
+      "When playing next card, if identical card in hand/draw pile, exhaust it and automatically play all identical cards."
+    ]
+  },
+  "Liver:SlimeBlockBuff": {
+    "NAME": "Slime Armor",
+    "DESCRIPTIONS": [
+      "Whenever a slime is exhausted, gain 1 metallicize."
+    ]
+  },
+  "Liver:WorkCatBuff": {
+    "NAME": "Working Cat",
+    "DESCRIPTIONS": [
+      "When playing or exhausting Scavenger's Treasure, gain gold."
+    ]
+  },
+  "Liver:SlimeGrowBuff": {
+    "NAME": "Regenerative Slime",
+    "DESCRIPTIONS": [
+      "Each turn gain dexterity, put 1 slime into discard pile."
+    ]
+  },
+  "Liver:TubeRunBuff": {
+    "NAME": "Pipe Runner",
+    "DESCRIPTIONS": [
+      "If took no damage, next turn gain block."
+    ]
+  },
+  "Liver:WorkBlockBuff": {
+    "NAME": "Karma Barrier",
+    "DESCRIPTIONS": [
+      "When block broken, deal damage to all enemies."
+    ]
+  },
+  "Liver:FinishWorkBuff": {
+    "NAME": "Completion",
+    "DESCRIPTIONS": [
+      "If hibernation not interrupted, gain 2 strength, 2 dexterity."
+    ]
+  },
+  "Liver:FatWorldBuff": {
+    "NAME": "Fat World",
+    "DESCRIPTIONS": [
+      "When playing unused cards this combat, gain 1 #yfullness . Excess #yfullness converts to strength."
+    ]
+  },
+  "Liver:Tooth": {
+    "NAME": "Steel Teeth",
+    "DESCRIPTIONS": [
+      "Block effectiveness halved against this unit's attacks."
+    ]
+  },
+  "Liver:LoveBlood": {
+    "NAME": "Blazing Blood",
+    "DESCRIPTIONS": [
+      "When debuffed, gain 2 strength."
+    ]
+  },
+  "Liver:IronFly": {
+    "NAME": "Steel Flight",
+    "DESCRIPTIONS": [
+      "Immune to damage when intent ≠ attack. Taking attack changes intent. When damaged, gain 2 strength until downed. NL "
+    ]
+  },
+  "Liver:Proliferation": {
+    "NAME": "Proliferation",
+    "DESCRIPTIONS": [
+      "Increase max HP and strength when cards exhausted. Heal HP each turn start. Excess heal converts to max HP."
+    ]
+  },
+  "RedCat:UnbalanceBuff": {
+    "NAME": "Unbalance",
+    "DESCRIPTIONS": [
+      "Next damage taken this turn is doubled."
+    ]
+  },
+  "RedCat:BorrowLifeBuff": {
+    "NAME": "Borrowed Life",
+    "DESCRIPTIONS": [
+      "Will not die immediately when karma reaches 0"
+    ]
+  },
+  "RedCat:LifeCatalyst": {
+    "NAME": "Life Catalyst",
+    "DESCRIPTIONS": [
+      "Draw 3 extra cards per turn, add 1 Corruption to hand and increase Corruption Value by 3."
+    ]
+  },
+  "RedCat:CantControl": {
+    "NAME": "Loss of Control",
+    "DESCRIPTIONS": [
+      "When playing a card, draw #b"," cards and take #r"," damage. Cannot exit #yMycelium state."
+    ]
+  },
+  "RedCat:HunterInstinct": {
+    "NAME": "Hunter's Instinct",
+    "DESCRIPTIONS": [
+      "At the start of turn, apply #yHunt Mark to a random target. Attacking enemies with #yHunt Mark grants #yVigor ."
+    ]
+  },
+  "RedCat:Metabolize": {
+    "NAME": "Potent Metabolism",
+    "DESCRIPTIONS": [
+      "Gain Vigor at the start of each turn "
+    ]
+  },
+  "RedCat:Inveteracy": {
+    "NAME": "Ingrained",
+    "DESCRIPTIONS": [
+      "  When exiting #yMycelium state, no longer lose #yCorruption Strength ."
+    ]
+  },
+  "RedCat:MisfortunePower": {
+    "NAME": "Unfortunate Development",
+    "DESCRIPTIONS": [
+      "When using Corrupted cards, block gained and damage dealt are doubled. "
+    ]
+  },
+  "RedCat:AcmeAttackBuff": {
+    "NAME": "Don't Touch Me!",
+    "DESCRIPTIONS": [
+      " While in #yMycelium state, attacking or being attacked inflicts #b"," stacks of #yEntanglement on the target."
+    ]
+  },
+  "RedCat:RestrainPower": {
+    "NAME": "Restraint",
+    "DESCRIPTIONS": [
+      " #yCorruption Value cannot increase."
+    ]
+  },
+  "RedCat:SpreadBuff": {
+    "NAME": "Spread",
+    "DESCRIPTIONS": [
+      "When playing a #yCorrupted card, #yCorrupt the leftmost uncorrupted card in hand."
+    ]
+  },
+  "RedCat:BloodyBuff": {
+    "NAME": "Bloodbath",
+    "DESCRIPTIONS": [
+      "Reduce next #b"," instances of damage taken by #b6 , and add 1 #rWound to draw pile."
+    ]
+  },
+  "RedCat:FreeVigorPower": {
+    "NAME": "High-Speed Movement",
+    "DESCRIPTIONS": [
+      "Next attack will not consume #yVigor ."
+    ]
+  },
+  "RedCat:CorruptStrengthPower": {
+    "NAME": "Corruption Strength",
+    "DESCRIPTIONS": [
+      " Damage dealt is increased by #b"," while in #yMycelium state. Lose all #yCorruption Strength when exiting Mycelium state."
+    ]
+  },
+  "RedCat:Mix":{
+    "NAME": "Blending",
+    "DESCRIPTIONS": ["When gaining #yCorruption Value , gain #b","x #yTemporary HP ; when losing #yCorruption Value , gain #b","x #yVigor ."]
+  },
+  "RedCat:RedMushroomBuff":{
+    "NAME": "Mycelium",
+    "DESCRIPTIONS": ["Reduce #b1 #yCorruption Value when playing a card, exit #yMycelium state when #yCorruption Value reaches 0. NL Gain #b2 #yTemporary HP when exhausting a card. NL #rWill not trigger #yKarma #rRevival when taking fatal damage. Convert all Temporary HP to #yBlock when exiting #yMycelium state."]
+  },
+  "RedCat:ExcitePower":{
+    "NAME": "Nerve Stimulation",
+    "DESCRIPTIONS": ["When triggering #yKarma Retribution , reset the cooldown of #yHibernation and deal #b"," damage to all enemies."]
+  },
+  "RedCat:TwistPower":{
+    "NAME": "Martyrdom",
+    "DESCRIPTIONS": ["At the start of turn, if #yKarma is #b1 , trigger #b1 instance of #yKarma Retribution ; when triggering #yKarma Retribution , draw #b"," cards. "]
+  },
+  "RedCat:EvolutionBuff":{
+    "NAME": "Adaptive Evolution",
+    "DESCRIPTIONS": ["After taking damage from a monster, reduce damage taken from the same type of monster by #b1 .","Recorded:"," NL Damage taken from #y"," reduced by #b"]
+  },
+  "RedCat:StudySpear":{
+    "NAME": "Practice Makes Perfect",
+    "DESCRIPTIONS": ["When an attack card is #yReturned #yto #yHand , increase its base attack by #b"]
+  },
+  "RedCat:BackToHandPower":{
+    "NAME": "Return to Hand",
+    "DESCRIPTIONS": ["The next #b"," #yAttack Cards or #ySkill Cards played are returned to hand after being put into discard pile. "]
+  },
+  "RedCat:ByPassPower":{
+    "NAME": "Excuse Me",
+    "DESCRIPTIONS": ["Gain an additional #b1 #yRelic and #b1 #yKarma when victorious."]
+  },
+  "RedCat:CreateSong":{
+    "NAME": "Creator's Song",
+    "DESCRIPTIONS": ["Gain an additional [E] per turn, but lose HP when Corruption Value increases."]
+  },
+  "RedCat:ManiaPower":{
+    "NAME": "Mania",
+    "DESCRIPTIONS": ["Cannot play #ySkill Cards , but gain #yVigor when playing #yAttack Cards ."]
+  },
+  "RedCat:Substrate":{
+    "NAME": "Culture Medium",
+    "DESCRIPTIONS": ["Add #b"," #yCorruption cards to hand each turn 。"]
+  },
+  "Rainworld:FireCentBuff":{
+    "NAME": "Flame Armor",
+    "DESCRIPTIONS": ["Replenish block to #b"," each turn. Disables after block is broken #b"," times."]
+  },
+  "Rainworld:CatchBuff":{
+    "NAME": "Organism Dissociation",
+    "DESCRIPTIONS": ["Gain #b1 #yStrength each time attacked, up to #b"," times per turn; reduce #r1 Max HP when taking damage from this unit."]
+  }
+}

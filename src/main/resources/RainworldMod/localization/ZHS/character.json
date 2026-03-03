@@ -1,0 +1,14 @@
+{
+  "Liver":{
+    "NAMES": ["求生者"],
+    "TEXT":["一只流浪的蛞蝓猫。 NL 在周而复始的生态轮回中，它既是捕食者又是猎物。","Meow~ Meow~","饱食度增加:","业力增加:", "业力上限增加:"]
+  },
+  "RedCat":{
+    "NAMES": ["猎手"],
+    "TEXT":["强壮而迅捷，且新陈代谢旺盛，需要持续进食肉类。 NL 但饥饿并非唯一的挑战，因为它将面对一段极端艰险的旅途。","Meow~ Meow~"]
+  },
+  "Rainworld:Monk":{
+    "NAMES": ["僧侣"],
+    "TEXT":["Weak of body but strong in spirit. In tune with the mysteries of the world and empathetic to its creatures, your journey will be a significantly more peaceful one."]
+  }
+}

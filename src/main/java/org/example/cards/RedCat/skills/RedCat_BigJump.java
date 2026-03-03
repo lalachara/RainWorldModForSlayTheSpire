@@ -1,0 +1,75 @@
+package org.example.cards.RedCat.skills;
+
+import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.example.cards.Liver.skills.Liver_Fruit;
+import org.example.cards.Liver.skills.Liver_SmallCent;
+import org.example.cards.RedCat.RedCatCard;
+import org.example.powers.ReadyBuff;
+
+import static org.example.Character.SlugCat.Enums.Liver_Color;
+
+public class RedCat_BigJump extends RedCatCard
+{
+    //卡牌ID，命名规则: mod名:卡牌名
+    public static final String ID = "RedCat:BigJump";
+    //卡牌插画路径
+    public static final String IMG_PATH = "images/CharacterImg/Cards/RedCat/bigjump.png";
+    //固定，不要修改
+    private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
+    public static final String NAME = cardStrings.NAME;
+    private static final String DESCRIPTION = cardStrings.DESCRIPTION;
+
+    //卡牌cost
+    private static final int COST = 2;
+    //卡牌类别 ATTACK,SKILL,POWER,STATUS,CURSE;
+    private static final CardType TYPE = CardType.SKILL;
+    //卡牌颜色 自定义颜色,COLORLESS,CURSE;
+    //卡牌稀有度 BASIC,SPECIAL,COMMON,UNCOMMON,RARE,CURSE;
+    private static final CardRarity RARITY = CardRarity.COMMON;
+    //卡牌目标 SELF,ENEMY,ALL_ENEMY,ALL,NONE,SELF_AND_ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
+
+
+    //调用父类的构造方法，传参为super(卡牌ID,卡牌名称，能量花费，卡牌描述，卡牌类型，卡牌颜色，卡牌稀有度，卡牌目标)
+    public RedCat_BigJump() {
+        super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE,RARITY, TARGET);
+        this.baseBlock = 8;
+        this.cardsToPreview = new RedCat_SmallCent(); // 设置预览卡牌
+        this.haveUpgradedDescription = true; // 升级后描述不同
+        initializeDescription();
+
+    }
+
+    @Override
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        // 获得格挡
+        addToBot(new GainBlockAction(p, p, this.block));
+        // 选择1张手牌保留
+        //addToBot(new SelectCardsInHandRetainAction());
+        // 下回合额外获得1能量
+        if(p.hasPower(ReadyBuff.POWER_ID)){
+            ( (ReadyBuff)(p.getPower(ReadyBuff.POWER_ID))).specifyCard(this.cardsToPreview.makeStatEquivalentCopy());
+        }
+        else
+            addToTop(new ApplyPowerAction(p, p, new ReadyBuff(p, 1,this.cardsToPreview.makeStatEquivalentCopy()), 1));
+    }
+    @Override
+    public void upgrade() {
+        //卡牌升级后的效果
+        if (!this.upgraded) {
+            upgradeBlock(3);
+            upgradeName();
+            AbstractCard card = new RedCat_SmallCent();
+            card.upgrade();
+            this.cardsToPreview = card; // 升级后预览升级后的RedCat_SmallCent
+            initializeDescription();
+        }
+    }
+}

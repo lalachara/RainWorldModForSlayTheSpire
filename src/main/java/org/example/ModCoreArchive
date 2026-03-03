@@ -1,0 +1,138 @@
+ package org.example;
+
+ import basemod.BaseMod;
+ import basemod.interfaces.*;
+ import com.badlogic.gdx.Gdx;
+ import com.badlogic.gdx.graphics.Color;
+ import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+ import com.megacrit.cardcrawl.characters.AbstractPlayer;
+ import com.megacrit.cardcrawl.core.CardCrawlGame;
+ import com.megacrit.cardcrawl.core.Settings;
+ import com.megacrit.cardcrawl.localization.*;
+
+ import java.nio.charset.StandardCharsets;
+
+ import static basemod.BaseMod.gson;
+
+
+ @SpireInitializer
+    public class ModCoreArchive implements EditCardsSubscriber, EditStringsSubscriber, EditCharactersSubscriber, EditRelicsSubscriber, EditKeywordsSubscriber {
+    private static final String MY_CHARACTER_BUTTON = "images/ForTestImg/CharactersImg/button.png";
+    // 人物选择界面的立绘
+    private static final String MY_CHARACTER_PORTRAIT = "images/CharacterImg/null.png";
+    // 攻击牌的背景（小尺寸）
+    private static final String BG_ATTACK_512 = "images/ForTestImg/CharactersImg/card512.png";
+    // 能力牌的背景（小尺寸）
+    private static final String BG_POWER_512 = "images/ForTestImg/CharactersImg/card512.png";
+    // 技能牌的背景（小尺寸）
+    private static final String BG_SKILL_512 = "images/ForTestImg/CharactersImg/card512.png";
+    // 在卡牌和遗物描述中的能量图标
+    private static final String SMALL_ORB = "images/ForTestImg/CharactersImg/Orbs/small_orb.png";
+    // 攻击牌的背景（大尺寸）
+    private static final String BG_ATTACK_1024 = "images/ForTestImg/CharactersImg/card1024.png";
+    // 能力牌的背景（大尺寸）
+    private static final String BG_POWER_1024 = "images/ForTestImg/CharactersImg/card1024.png";
+    // 技能牌的背景（大尺寸）
+    private static final String BG_SKILL_1024 = "images/ForTestImg/CharactersImg/card1024.png";
+    // 在卡牌预览界面的能量图标
+    private static final String BIG_ORB = "images/ForTestImg/CharactersImg/Orbs/card_orb.png";
+    // 小尺寸的能量图标（战斗中，牌堆预览）
+    private static final String ENEYGY_ORB = "images/ForTestImg/CharactersImg/Orbs/cost_orb.png";
+
+    public static final Color MY_COLOR = new Color(1.0f, 60.0F / 255.0F, 60.0F / 255.0F, 1.0F);
+
+       public ModCoreArchive() {
+/*  53 */     BaseMod.subscribe((ISubscriber)this);
+/*  54 */     BaseMod.addColor(Charas_Color, MY_COLOR, MY_COLOR, MY_COLOR, MY_COLOR, MY_COLOR, MY_COLOR, MY_COLOR, BG_ATTACK_512, BG_SKILL_512, BG_POWER_512, ENEYGY_ORB, BG_ATTACK_1024, BG_SKILL_1024, BG_POWER_1024, BIG_ORB, SMALL_ORB);
+   }
+   public static void initialize() {
+/*  57 */     new ModCoreArchive();
+   }
+
+
+
+   public void receiveEditCharacters() {
+//       BaseMod.addCharacter(
+//               new wishdell(CardCrawlGame.playerName),
+//               MY_CHARACTER_BUTTON,
+//               MY_CHARACTER_PORTRAIT,
+//               wishdell.Enums.MY_CHARACTER
+//       );
+       AbstractPlayer p = (AbstractPlayer)new Charas(CardCrawlGame.playerName);
+       BaseMod.addCharacter(p, MY_CHARACTER_BUTTON, MY_CHARACTER_PORTRAIT, Charas.Enums.MY_CHARACTER);
+       BaseMod.subscribe(new Charas(CardCrawlGame.playerName));
+
+   }
+//   public void receiveEditKeywords() {
+//     String lang;
+///*  67 */     Gson gson = new Gson();
+//
+///*  69 */     if (Settings.language == Settings.GameLanguage.ZHS) {
+///*  70 */       lang = "ZHS";
+//     } else {
+///*  72 */       lang = "ENG";
+//     }
+//
+//
+///*  76 */     String json = Gdx.files.internal(MyModHelper.makeLocalizationPath(lang, "keywords")).readString(String.valueOf(StandardCharsets.UTF_8));
+///*  77 */     Keyword[] keywords = (Keyword[])gson.fromJson(json, Keyword[].class);
+///*  78 */     if (keywords != null) {
+///*  79 */       for (Keyword keyword : keywords)
+//       {
+///*  81 */         BaseMod.addKeyword("logosmod", keyword.NAMES[0], keyword.NAMES, keyword.DESCRIPTION);
+//       }
+//     }
+//   }
+
+   public void receiveEditCards() {
+
+//       BaseMod.addCard(new Chara_Strike());
+//       BaseMod.addCard(new Charas_SwitchSite());
+//        BaseMod.addCard(new Wishdell_Shieldhit());
+//        BaseMod.addCard(new Wishdell_Rain());
+
+
+   }
+
+
+
+   public void receiveEditRelics() {
+//           BaseMod.addRelicToCustomPool((AbstractRelic)new Wishdell_Aavenger(), Wishdell_COLOR);
+//              //BaseMod.addRelicToCustomPool((AbstractRelic)new Wishdell_Kuorong(), Wishdell_COLOR);
+//       BaseMod.addRelicToCustomPool((AbstractRelic)new org.example.wishdell.relics.Wishdell_Yuxi(), Wishdell_COLOR);
+//       BaseMod.addRelicToCustomPool((AbstractRelic)new org.example.wishdell.relics.Wishdell_Backup(), Wishdell_COLOR);
+}
+   public void receiveEditStrings() {
+     String lang;
+/* 206 */     if (Settings.language == Settings.GameLanguage.ZHS) {
+/* 207 */       lang = "ZHS";
+     } else {
+/* 209 */       lang = "ENG";
+     }
+     BaseMod.loadCustomStringsFile(CardStrings.class,"localization/ZHS/card.json");
+    BaseMod.loadCustomStringsFile(CharacterStrings.class, "localization/ZHS/character.json");
+    BaseMod.loadCustomStringsFile(RelicStrings.class, "localization/ZHS/relics.json");
+    BaseMod.loadCustomStringsFile(PowerStrings.class, "localization/ZHS/powers.json");
+    BaseMod.loadCustomStringsFile(MonsterStrings.class, "localization/ZHS/monsters.json");
+   }
+
+
+
+     @Override
+     public void receiveEditKeywords() {
+         String json = Gdx.files.internal("localization/ZHS/Keywords.json").readString(String.valueOf(StandardCharsets.UTF_8));
+         /*  77 */     Keyword[] keywords = (Keyword[])gson.fromJson(json, Keyword[].class);
+         /*  78 */     if (keywords != null) {
+             /*  79 */       for (Keyword keyword : keywords)
+                 /*     */       {
+                 /*  81 */         BaseMod.addKeyword("wishdell", keyword.NAMES[0], keyword.NAMES, keyword.DESCRIPTION);
+                 /*     */       }
+             /*     */     }
+     }
+ }
+
+
+/* Location:              D:\Game\Steam\steamapps\workshop\content\646570\3277194701\LogosMod.jar!\LogosMod\modcore\LogosMod.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

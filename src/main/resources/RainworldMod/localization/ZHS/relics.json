@@ -1,0 +1,150 @@
+{
+
+  "Liver:RelicFruit": {
+    "NAME": "蓝果礼盒",
+    "FLAVOR": "美味多汁，是最常见的食物来源，但这种果实其实是虫子的蛹。",
+    "DESCRIPTIONS": [
+      "战斗开始时，将一张 #b蓝色果实 放入你的手牌。"
+    ]
+  },
+  "Liver:RelicFruit2": {
+    "NAME": "豪华蓝果礼盒",
+    "FLAVOR": "蓝果礼盒限量豪华版，蛞蝓猫们的出门必备品。",
+    "DESCRIPTIONS": [
+      "替换 #g蓝果礼盒 。战斗开始时，将一张 #b蓝色果实+ 放入你的手牌。"
+    ]
+  },
+  "Liver:Tubularis": {
+    "NAME": "吸管",
+    "FLAVOR": "吸噜噜噜噜噜……咳咳咳！",
+    "DESCRIPTIONS": [
+      "拾取时，将两张 #g粘液 加入卡组。当粘液被消耗时，获得 #b1 #yrainworld:饱食度 。你抽到的 #g粘液 耗能变为 #b0 。"
+    ]
+  },
+  "Liver:BoneSpear": {
+    "NAME": "骨矛",
+    "FLAVOR": "撕咬并不是唯一进食的方法。",
+    "DESCRIPTIONS": [
+      " #yrainworld:矛 类型卡牌在造成未被格挡的伤害时，回复 #b1 点 #yrainworld:饱食度 。"
+    ]
+  },
+  "Liver:LongLegMushroom": {
+    "NAME": "长腿菌块",
+    "FLAVOR": "它们巨大、贪婪、危险、无坚不摧。",
+    "DESCRIPTIONS": [
+      "回合开始时，如果你的 #yrainworld:饱食度 已满，获得 [E] 。溢出的 #yrainworld:饱食度 会对 #r所有生物 造成等量伤害。"
+    ]
+  },
+  "Liver:BatteryEnergy": {
+    "NAME": "质量稀释电池",
+    "FLAVOR": "我请求你:把电池带到遥远的东方，带给一个朋友……如果她还活着的话。",
+    "DESCRIPTIONS": [
+      "回合开始时，获得 [E] 。每场战斗积累受到 #b8 次伤害时，对所有在场单位造成 #b40 伤害，然后此遗物 #r失效 。"
+    ]
+  },
+  "Liver:FlowerAgain": {
+    "NAME": "轮回之花",
+    "FLAVOR": "fafa",
+    "DESCRIPTIONS": [
+      "当你在战斗中失去 #rainworld:业力 时，获得一个业力花（药水），每场战斗只能触发一次。"
+    ]
+  },
+  "Liver:BirdMask": {
+    "NAME": "魔王秃鹫面具",
+    "FLAVOR": "弱小的生物都会恐惧这从天而降的阴影。",
+    "DESCRIPTIONS": [
+      "当你触发 #y格挡 时，获得 #b1 层 #yrainworld:灵巧 。"
+    ]
+  },
+  "Liver:SleepPotions": {
+    "NAME": "安眠药",
+    "FLAVOR": "陷入了猫崽般的睡眠。",
+    "DESCRIPTIONS": [
+      "休眠消耗的饱食度变为 #g3 ，休眠不再会被攻击打断。 NL 在休息处休息时，增加 #b1 业力上限。"
+    ]
+  },
+  "Liver:GrassJuice": {
+    "NAME": "烈焰血",
+    "FLAVOR": "火红的蜥蜴头领带来的创伤无法愈合。",
+    "DESCRIPTIONS": [
+      " #yrainworld:创伤 不会再跟随回合降低层数，并且带有创伤的敌人在攻击时额外增加 #b1 层 #yrainworld:创伤 。"
+    ]
+  },
+  "Liver:WhiteSkin": {
+    "NAME": "白蜥蜴皮",
+    "FLAVOR": "剥离后仍保持着短暂的活性，没人在意它的原主人怎么样了。",
+    "DESCRIPTIONS": [
+      "右键此遗物主动使用，消耗 [E] ，获得 #b1 层 #y无实体 。 NL （每场战斗仅能触发一次）","能量不足，无法使用。","剩余使用次数不足，无法使用。"
+    ]
+  },
+  "Liver:TalkSign": {
+    "NAME": "交流印记",
+    "FLAVOR": "你理解了神的语言。",
+    "DESCRIPTIONS": [
+      "获得时业力上限+ #b1 。"
+    ]
+  },
+  "Liver:MoonSkin": {
+    "NAME": "皓月披风",
+    "FLAVOR": "它挂在沉没巨构远东处的一根杆子上。",
+    "DESCRIPTIONS": [
+      "重生时，获得 #b20 格挡。"
+    ]
+  },
+  "Liver:Eternal": {
+    "NAME": "永恒",
+    "FLAVOR": "去感悟。去理解。去见证。",
+    "DESCRIPTIONS": [
+      "业力上限变为 #b10 。部分卡牌获得 #y特殊效果 。"
+    ]
+  },
+  "RedCat:CorruptCatalyst": {
+    "NAME": "红色菌块",
+    "FLAVOR": "它的颜色如命运般猩红。",
+    "DESCRIPTIONS": [
+      "将你的猫猫拳和猫猫防御替换为腐化打击和腐化外壳。"
+    ]
+  },
+  "RedCat:Pearl": {
+    "NAME": "涂鸦板",
+    "FLAVOR": "一块已经被风化的墙体碎片，上面刻画着古代文明的符号。",
+    "DESCRIPTIONS": [
+      "每累计获得10点 #y活力 ，获得1 #y力量 。"
+    ]
+  },
+  "RedCat:Yoyo": {
+    "NAME": "悠悠球",
+    "FLAVOR": "据说在某个异世界中，悠悠球也是可以打人的。",
+    "DESCRIPTIONS": [
+      "每回合打出的第1张技能或攻击牌 #y回手 。"
+    ]
+  },
+  "RedCat:Menu": {
+    "NAME": "猎手笔记",
+    "FLAVOR": "笔记里的名字都被划掉了。",
+    "DESCRIPTIONS": [
+      "战斗开始时，对随机敌人施加 #b2 层 #y猎物标记 。 NL 每当你击杀 #b4 个带有 #y猎物标记 的敌人后，提升1 #y业力 。"
+    ]
+  },
+  "RedCat:Menu2": {
+    "NAME": "猎手笔记II",
+    "FLAVOR": "如此多样的美味，饕餮都要馋哭了！",
+    "DESCRIPTIONS": [
+      "替换 #g猎手笔记 ，战斗开始时，对所有敌人施加 #b3 层 #y猎物标记 。 NL 每当你击杀 #b3 个带有 #y猎物标记 的敌人后，提升1 #y业力 。"
+    ]
+  },
+  "RedCat:RecoverKey": {
+    "NAME": "废渣重置密钥",
+    "FLAVOR": "一颗绿色的神经元，其中含有几段残态复位码。",
+    "DESCRIPTIONS": [
+      "在某些事件中有特殊的效果。"
+    ]
+  },
+  "RedCat:mushroom": {
+    "NAME": "腐化印记",
+    "FLAVOR": "时限将至。",
+    "DESCRIPTIONS": [
+      " 休眠消耗的饱食度变为 #r9 ，在战斗开始时，获得 #b5 #y腐化值 。 "
+    ]
+  }
+}

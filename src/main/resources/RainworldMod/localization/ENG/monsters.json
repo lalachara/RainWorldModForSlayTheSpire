@@ -1,0 +1,24 @@
+{
+  "Liver:Cabrite": {
+    "NAME": "Lizard"
+  },
+  "Liver:RedCabrite": {
+    "NAME": "Red Lizard"
+  },
+  "Liver:GreenCabrite": {
+    "NAME": "Green Lizard"
+  },
+  "Liver:IronBird": {
+    "NAME": "Steel Vulture"
+  },
+  "Liver:MushRoom": {
+    "NAME": "Mutant Leggy Mushroom"
+  },
+  "Rainworld:ThreeChicken": {
+    "NAME": "Inspector",
+    "DIALOG":[" ~cat……have a touch……~ "," @continue……check……@ "," no dangerous..."]
+  },
+  "Rainworld:FireCent": {
+    "NAME": "Red Centipede"
+  }
+}
